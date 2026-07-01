@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0469/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0469/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大乘四法經
+  identifiers:
+    krp: KR6i0469
+    cbeta: T17n0772
+    cbeta_old_id: T17n0772
+    authorityid: CA0002773
+    json_key: T0772
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0772.xml
+    old_id: T17n0772
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0469_000-T.yaml, hash: 'sha256:ec69b0c3af963398d7d039a33edbbd9d861a275ad356d2232cce16fdff12202e'}
+  - {seq: 1, filename: KR6i0469_001-T.yaml, hash: 'sha256:d72deaaeab9b85cf42d37366747c2614873c5a345fa9675bdb1f5888a1b52c4d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0469_000-T.markers.yaml, hash: 'sha256:cfb6cd440fa6666522c13db979821f69336eafbb94f4d8098e5991c542f05fbf'}
+  - {seq: 1, role: markers, filename: assets/KR6i0469_001-T.markers.yaml, hash: 'sha256:75b5ce0ee8d1537a28f6e260e096b45ca708a24ad1ec5d31d7e6da11df6540cd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0469_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 302
+  label: 大乘四法經
+  type: juan
+  level: 1
+hash: sha256:9d8736ef033daa64902521e8c267c4dc7c02866d8c0a60fedf0454d871b41edf
