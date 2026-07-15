@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0469/v1
 canonical_location: https://kanripo.org/bkk/KR6i0469/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大乘四法經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0469_000.yaml, hash: 'sha256:ec69b0c3af963398d7d039a33edbbd9d861a275ad356d2232cce16fdff12202e'}
-  - {seq: 1, filename: KR6i0469_001.yaml, hash: 'sha256:d72deaaeab9b85cf42d37366747c2614873c5a345fa9675bdb1f5888a1b52c4d'}
+  - {seq: 1, filename: KR6i0469_001.yaml, hash: 'sha256:a83f2c2d19abfc6c4d1be74f172dfdc54e31d14c917972068bdaa78981721aa5'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0469_000.markers.yaml, hash: 'sha256:8bd87aa328bcee7f83093f46e091f351f9e57b9513bc86ef8f8b07571ff48b33'}
-  - {seq: 1, role: markers, filename: assets/KR6i0469_001.markers.yaml, hash: 'sha256:67e8b3dcc6d2ebc3d088bd31250101b0fe971a86aac467246e7caf80a83b0654'}
+  - {seq: 1, role: markers, filename: assets/KR6i0469_001.markers.yaml, hash: 'sha256:664efa1765aa8814b328f7d1e1041354d90d86fce7f72c8b38070ea59d013322'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 大乘四法經
   type: juan
   level: 1
-hash: sha256:20b54e6480b08d0739ecd6dcd5a8583961374efae03cff208d199a7355685d12
+hash: sha256:8a5587295e8d873bf01e99ae48cfe943217943073a8133d2fc65eaead578af28
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
